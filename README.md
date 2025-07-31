@@ -1,6 +1,6 @@
 # F401-WS2812b-ADA6 - 芯星-X++开发团队
 
-[![LGPL-3.0](https://img.shields.io/badge/License-LGPL_v3-blue.svg)](LICENSES/LGPL-3.0.txt)
+[![LGPL-3.0](https://img.shields.io/badge/License-LGPL_v3-blue.svg)](LICENSES/lgpl-3.0.txt)
 
 **LGPL v3 关键义务**：
 1. 使用本库无需开源您的项目代码
