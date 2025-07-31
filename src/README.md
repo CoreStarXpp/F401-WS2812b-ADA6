@@ -1,26 +1,26 @@
-##=====================================================================
-## F401-WS2812b-ADA6 - Ð¾ÐÇ-X++¿ª·¢ÍÅ¶Ó
-## SPDX±êÊ¶£ºSPDX-License-Identifier: LGPL-3.0-only
-## °æÈ¨ËùÓÐ£ºCopyright (C) 2025 ÕÅË¸
-## 		Ð¾ÐÇ-X++¿ª·¢ÍÅ¶Ó£¨https://gitee.com/CoreStarXpp£©
-##=====================================================================
+##### ===================================================================
+##### F401-WS2812b-ADA6 - èŠ¯æ˜Ÿ-X++å¼€å‘å›¢é˜Ÿ
+##### SPDXæ ‡è¯†ï¼šSPDX-License-Identifier: LGPL-3.0-only
+##### ç‰ˆæƒæ‰€æœ‰ï¼šCopyright (C) 2025 å¼ çƒ
+#####  		èŠ¯æ˜Ÿ-X++å¼€å‘å›¢é˜Ÿï¼ˆhttps://gitee.com/CoreStarXppï¼‰
+##### ===================================================================
 
 [![LGPL-3.0](https://img.shields.io/badge/License-LGPL_v3-blue.svg)](LICENSES/lgpl-3.0.txt)
 
-#### ÏîÄ¿¹²·ÖÁ½¸ö²¿·Ö£¬¿ØÖÆÆ÷£¨Controller£©ºÍ½ÓÊÕÆ÷£¨Receiver£©£¬½á¹¹ÉÏ²ÉÈ¡µ¥Ä¿Â¼°üº¬ËùÓÐÔ´Âë
+#### é¡¹ç›®å…±åˆ†ä¸¤ä¸ªéƒ¨åˆ†ï¼ŒæŽ§åˆ¶å™¨ï¼ˆControllerï¼‰å’ŒæŽ¥æ”¶å™¨ï¼ˆReceiverï¼‰ï¼Œç»“æž„ä¸Šé‡‡å–å•ç›®å½•åŒ…å«æ‰€æœ‰æºç 
 
-#### ¿ØÖÆÆ÷£¨Controller£©
-	ºËÐÄÆµÂÊ84MHz
-	À¶ÑÀÄ£¿éXY-MB035A
-	Î´Ê¹ÓÃCTS
-	USART1£¨PA9£¬PA10£©
-	°´¼ü¸ßµçÑ¹Çý¶¯£¨PA0£©
-	·¢ËÍÊý¾Ý0xff010100
+#### æŽ§åˆ¶å™¨ï¼ˆControllerï¼‰
+	æ ¸å¿ƒé¢‘çŽ‡84MHz
+	è“ç‰™æ¨¡å—XY-MB035A
+	æœªä½¿ç”¨CTS
+	USART1ï¼ˆPA9ï¼ŒPA10ï¼‰
+	æŒ‰é”®é«˜ç”µåŽ‹é©±åŠ¨ï¼ˆPA0ï¼‰
+	å‘é€æ•°æ®0xff010100
 
-#### ½ÓÊÕÆ÷£¨Receiver£©
-	ºËÐÄÆµÂÊ84MHz
-	À¶ÑÀÄ£¿éXY-MB035A
-	Î´Ê¹ÓÃCTS
-	USART1£¨PA9£¬PA10£©
-	WS2812bµÆ´ø5V 160µÆ£¨PA0£©
-	À¶ÑÀLINKÒý½Å¿ØÖÆµÆ´øµçÔ´
+#### æŽ¥æ”¶å™¨ï¼ˆReceiverï¼‰
+	æ ¸å¿ƒé¢‘çŽ‡84MHz
+	è“ç‰™æ¨¡å—XY-MB035A
+	æœªä½¿ç”¨CTS
+	USART1ï¼ˆPA9ï¼ŒPA10ï¼‰
+	WS2812bç¯å¸¦5V 160ç¯ï¼ˆPA0ï¼‰
+	è“ç‰™LINKå¼•è„šæŽ§åˆ¶ç¯å¸¦ç”µæº
