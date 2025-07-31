@@ -51,7 +51,7 @@ _start:
 
 //配置USART1
 	MOVW R0, #0x1000
-	MOVT R0, #0x4001			//USART1基址
+	MOVT R0, #0x4001		//USART1基址
 	MOV R1, #0x00			//清除USART_CR1（关闭USART1）
 	STR R1, [R0, #0x0C]		//写入USART_CR1
 	MOV R1, #0x0683			//16MHz->9600bps
