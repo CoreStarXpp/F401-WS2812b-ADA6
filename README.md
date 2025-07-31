@@ -1,25 +1,37 @@
-# F401-WS2812b-ADA6
+# F401-WS2812b-ADA6 - 芯星-X++开发团队
 
-#### 介绍
-{**以下是 Gitee 平台说明，您可以替换此简介**
+[![LGPL-3.0](https://img.shields.io/badge/License-LGPL_v3-blue.svg)](LICENSES/LGPL-3.0.txt)
+
+**LGPL v3 关键义务**：
+1. 使用本库无需开源您的项目代码
+2. 但修改本库代码**必须开源修改部分**
+3. 必须在产品文档中声明使用本库
+4. 提供协议文本及源码获取方式
+
+#### 平台介绍
 Gitee 是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN）。专为开发者提供稳定、高效、安全的云端软件开发协作平台
-无论是个人、团队、或是企业，都能够用 Gitee 实现代码托管、项目管理、协作开发。企业项目请看 [https://gitee.com/enterprises](https://gitee.com/enterprises)}
+无论是个人、团队、或是企业，都能够用 Gitee 实现代码托管、项目管理、协作开发。企业项目请看 [https://gitee.com/enterprises](https://gitee.com/enterprises)
+
+#### 项目简介
+以最小的资源消耗和最高的代码密度实现远程蓝牙控制拟奥迪A6尾灯效果
 
 #### 软件架构
-软件架构说明
-
+采用纯汇编完成，附带关键函数动态链接和配套源码（可用高级语言如c/c++调用）
 
 #### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  拉取源码
+2.  安装arm-none-eabi
+3.  编译
+4.  组装配件
+5.  烧录与测试
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  纯汇编源码，带精细注释，配套B站讲解视频
+2.  测试平台STM32F401RCT6开发板
+3.  符合arm-none-eabi要求
+4.  高级语言调用请参阅改版源码
 
 #### 参与贡献
 
@@ -29,11 +41,3 @@ Gitee 是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN�
 4.  新建 Pull Request
 
 
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
