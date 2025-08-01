@@ -86,6 +86,7 @@ WaitTC0:
 	LDR R1, [R0]			//读取USART_SR
 	TST R1, #0x40			//测试TC位为1（数据发送完成）
 	BEQ WaitTC0			//不匹配则继续等待
+
 WaitTXE1:
 	LDR R1, [R0]
 	TST R1, #0x80
@@ -96,6 +97,7 @@ WaitTC1:
 	LDR R1, [R0]
 	TST R1, #0x40
 	BEQ WaitTC1
+
 WaitTXE2:
 	LDR R1, [R0]
 	TST R1, #0x80
@@ -106,6 +108,7 @@ WaitTC2:
 	LDR R1, [R0]
 	TST R1, #0x40
 	BEQ WaitTC2
+
 WaitTXE3:
 	LDR R1, [R0]
 	TST R1, #0x80
