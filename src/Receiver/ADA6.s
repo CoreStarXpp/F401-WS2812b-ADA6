@@ -15,6 +15,7 @@
 //Start
 //平台：STM32F401RCT6 PLL=84MHz
 //编译器：arm-none-eabi
+//使用寄存器：R0、R1、R2、R3、R4、R5、R6、R7、R8、R9、LR
 
 .syntax unified
 .cpu cortex-m4				//指定Cortex-M4内核

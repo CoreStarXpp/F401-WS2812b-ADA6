@@ -15,6 +15,7 @@
 //Start
 //平台：STM32F401RCT6 PLL=84MHz
 //编译器：arm-none-eabi
+//使用寄存器：R0,R1,R2,R3,R4,R5,R6,R7,LR
 
 //WARN!!!请勿删去更新条件标志的指令后的NOP，后果自负！！！
 

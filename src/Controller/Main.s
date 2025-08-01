@@ -16,6 +16,7 @@
 //平台：STM32F401RCT6 HSI=16MHz
 //	XY-MB035A 9600bps 已配置自动连接
 //编译器：arm-none-eabi
+//使用寄存器：R0、R1、R2
 
 .syntax unified
 .cpu cortex-m4				//指定Cortex-M4内核

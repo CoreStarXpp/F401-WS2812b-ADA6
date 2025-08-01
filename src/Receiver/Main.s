@@ -17,6 +17,7 @@
 //	XY-MB035A 9600bps 已配置自动连接
 //	WS2812b 5V 160灯
 //编译器：arm-none-eabi
+//使用寄存器：R0、R1、R2
 
 .syntax unified
 .cpu cortex-m4				// 指定Cortex-M4内核
@@ -46,9 +47,9 @@ WaitHSEReady:				//等待HSE工作
 	BEQ WaitHSEReady		//不匹配则继续等待
 
 	LDR R1, [R0, #0x04]		//读取RCC_PLLCFGR
-	MOVW R3, #0x7FFF
-	MOVT R3, #0x3			//PLLM、PLLN、PLLP
-	BIC R1, R1, R3			//清除PLLM、PLLN、PLLP
+	MOVW R2, #0x7FFF
+	MOVT R2, #0x3			//PLLM、PLLN、PLLP
+	BIC R1, R1, R2			//清除PLLM、PLLN、PLLP
 	ORR R1, R1, #0x19
 	ORR R1, R1, #0x5400
 	ORR R1, R1, #0x410000		//PLLM=25，PLLN=336，PLLP=1（对应4）|PLL=HSE*（PLLN/PLLM）/PLLP=25*（336/25）/4=84MHz
@@ -63,12 +64,12 @@ WaitPLLReady:				//等待PLL稳定
 	BEQ WaitPLLReady		//不匹配则继续等待
 
 	LDR R1, [R0, #0x08]		//读取RCC_CFGR
-	MOVW R3, #0xFCF3
-	MOVT R3, #0x1F			//SW、HPRE、PPRE1、PPRE2、RTCPRE
-	BIC R1, R3			//清除SW、HPRE、PPRE1、PPRE2、RTCPRE
-	MOVW R3, #0x1002
-	MOVT R3, #0x19			//SW=0b10（PLL时钟），HPRE=0（AHB=84MHz），PPRE1=0b100（APB1=42MHZ Max），PPRE2=0（APB2=84MHz），RTCPRE=0b11001（RTC=HSE/25=1MHz 必须）
-	ORR R1, R3			//同上
+	MOVW R2, #0xFCF3
+	MOVT R2, #0x1F			//SW、HPRE、PPRE1、PPRE2、RTCPRE
+	BIC R1, R2			//清除SW、HPRE、PPRE1、PPRE2、RTCPRE
+	MOVW R2, #0x1002
+	MOVT R2, #0x19			//SW=0b10（PLL时钟），HPRE=0（AHB=84MHz），PPRE1=0b100（APB1=42MHZ Max），PPRE2=0（APB2=84MHz），RTCPRE=0b11001（RTC=HSE/25=1MHz 必须）
+	ORR R1, R2			//同上
 	STR R1, [R0, #0x08]		//写入RCC_CFGR
 
 WaitSwitch:				//等待切换完成

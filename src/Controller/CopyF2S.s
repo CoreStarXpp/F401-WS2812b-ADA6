@@ -16,6 +16,7 @@
 //Start
 //平台：STM32F401RCT6 HSI=16MHz
 //编译器：arm-none-eabi
+//使用寄存器：R0、R1、R2、R3、LR
 
 .syntax unified
 .cpu cortex-m4				//指定Cortex-M4内核
