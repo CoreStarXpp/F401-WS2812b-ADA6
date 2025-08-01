@@ -5,8 +5,7 @@
 1. 在产品文档中声明：
    "本产品使用 [Project Name] (LGPL v3)"
 2. 提供协议文本获取方式：
-   https://gitee.com/[account]/[project]/LICENSES/
-https://gitee.com/CoreStarXpp/f401-ws2812b-ada6/master/LICENSES/lgpl-3.0.txt
+   https://gitee.com/CoreStarXpp/f401-ws2812b-ada6/blob/master/LICENSES/lgpl-3.0.txt
 
 ### 修改代码
 1. 在修改文件中标注：
