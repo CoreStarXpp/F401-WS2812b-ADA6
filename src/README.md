@@ -2,7 +2,7 @@
 ##### F401-WS2812b-ADA6 - 芯星-X++开发团队
 ##### SPDX标识：SPDX-License-Identifier: LGPL-3.0-only
 ##### 版权所有：Copyright (C) 2025 张烁
-#####  		芯星-X++开发团队（ https://gitee.com/CoreStarXpp ）
+#####  		芯星-X++开发团队（ https://github.com/CoreStarXpp ）
 ##### ===================================================================
 
 [![LGPL-3.0](https://img.shields.io/badge/License-LGPL_v3-blue.svg)](LICENSES/lgpl-3.0.txt)
