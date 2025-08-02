@@ -7,7 +7,7 @@ echo 项目：F401-WS2812b-ADA6
 echo 文件：/src/Controller/Main.s
 echo SPDX标识：SPDX-License-Identifier: LGPL-3.0-only
 echo 版权所有：Copyright (C) 2025 张烁
-echo 		芯星-X++开发团队（https://gitee.com/CoreStarXpp）
+echo 		芯星-X++开发团队（https://github.com/CoreStarXpp）
 echo 协议：完整文本见/LICENSES/lgpl-3.0.txt
 echo =====================================================================
 color f0

@@ -3,7 +3,7 @@
 //文件：/src/Controller/ADA6.s
 //SPDX标识：SPDX-License-Identifier: LGPL-3.0-only
 //版权所有：Copyright (C) 2025 张烁
-//		芯星-X++开发团队（https://gitee.com/CoreStarXpp）
+//		芯星-X++开发团队（https://github.com/CoreStarXpp）
 //协议：完整文本见/LICENSES/lgpl-3.0.txt
 //=====================================================================
 
